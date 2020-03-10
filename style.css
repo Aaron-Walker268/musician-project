@@ -1,0 +1,197 @@
+*{
+	color: #ffffff;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1{
+	padding:0px;
+	margin: 0px;
+	font-size: 60px
+
+}
+ul{
+	list-style: none;
+}
+
+h1, h2, h3{
+	color: #ff0000
+}
+
+h1{
+	font-size: 48px;
+}
+
+a{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#tickets{
+	color:#0073FF; 
+	width: 30%;
+}
+
+header li{
+	display: inline-block;
+	justify-content: space-between;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 30px
+	width:30px;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+}
+h2, h1{
+	text-align: center;
+}
+
+.albums {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.albums img {
+	width: 100%;
+}
+.gorillaz{
+	width: 30%;
+	padding: 3%;
+}
+
+.demon-days{
+	width: 30%;
+	padding: 3%;
+}
+
+.plastic-beach{
+	width: 30%;
+	padding: 3%;
+}
+
+.d-sides{
+	width: 30%;
+	padding: 3%;
+}
+
+.humanz{
+	width: 30%;
+	padding: 3%;
+}
+
+.band-item{
+	display: flex;
+	align-items: center;
+
+}
+.band-item .text-wrap{
+	color:#0073FF; 
+}
+
+.tours {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.tours h1 {
+	width: 100%;
+}
+.minglewood{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+.showbox{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+.warfield{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+.soma{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+.complex{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+.pageant{
+	width: 30%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+
+}
+
+.footer{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer li{
+	display: inline-block;
+	justify-content: space-between;
+	padding-right: 45px;
+	padding-left: 45px;
+}
+
+input{
+	width: 440px;
+	color: 	#000000;
+}
+
+button{
+	color:#000000;
+}
+
+.connected a{
+	text-decoration: none;
+	color:#0073FF; 
+}
+
+
+.item {
+	display: flex;
+	padding: 0 10%;
+}
+.owl-item .image-wrap {
+	width: 25%;
+}
+.owl-item .text-wrap {
+	width: 75%;
+	padding: 0 0 0 50px;
+}
